@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "ipc_token_wallet_backend": {
+      "candid": "src/ipc_token_wallet_backend/ipc_token_wallet_backend.did",
+      "package": "ipc_token_wallet_backend",
+      "type": "rust"
+    },
+    "ipc_token_wallet_frontend": {
+      "dependencies": [
+        "ipc_token_wallet_backend"
+      ],
+      "source": [
+        "src/ipc_token_wallet_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "ipc_token_wallet_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

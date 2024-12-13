@@ -1,0 +1,32 @@
+.receive-tokens {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .receive-tokens h2 {
+    font-size: 1.5rem;
+  }
+  
+  .receive-tokens input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .receive-tokens button {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .receive-tokens button:hover {
+    background-color: #1976d2;
+  }
+  
