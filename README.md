@@ -1,7 +1,3 @@
-Here's a README template for your project:
-
----
-
  Token Wallet on the ICP Blockchain
 
 Overview
